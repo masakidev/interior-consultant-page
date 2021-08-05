@@ -1,0 +1,60 @@
+.card__wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.card__container {
+    height: 100%;
+    margin-bottom: 86.4px;
+}
+
+.card__example-img {
+    width: 100%;
+}
+
+.card {
+    position: absolute;
+    height: 138px;
+    width: 300px;
+    bottom: -5.4rem;
+    right: 0.7rem;
+    padding: 1.5625rem 1.1875rem;
+    background: var(--black);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.card__user {
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.card__avatar {
+    height: 2.286875rem;
+    width: 2.286875rem;
+    border-radius: 50%;
+    margin-right: 0.8rem;
+}
+
+.card__user-name {
+    margin-bottom: 0.365625rem;
+    font-family: var(--fontMontserrat);
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+
+.card__user-job {
+    font-family: var(--fontMontserrat);
+    font-size: 0.625rem;
+    font-weight: 500;
+    color: var(--gray);
+}
+
+.card__comment {
+    max-width: 13.125rem;
+    font-family: var(--fontLora);
+    font-size: 1.125rem;
+    font-weight: 700;
+}

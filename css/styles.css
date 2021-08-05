@@ -1,0 +1,39 @@
+@import './header.css';
+@import './about.css';
+@import './card.css';
+@import './footer.css';
+
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+:root {
+    --black: #181719;
+    --white: #fff;
+    --gray: #828282;
+
+    --fontCrimson: 'Crimson Pro', serif;
+    --fontLora: 'Lora', serif;
+    --fontMontserrat: 'Montserrat', sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--black);
+    color: var(--white);
+}
+
+img {
+    display: block;
+}
+
+.wrapper {
+    padding: 0 0.75rem;
+    max-width: 1110px;
+    margin: auto;
+}
